@@ -20,7 +20,7 @@ class App extends React.Component {
     
     return (
       <div>
-          <Router>
+          <Router basename='/insta-app'>
             <Routes>
               {
                 !isLog ?
