@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug React in Firefox",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost:3000", // Change this to your React dev server URL if different
+            "webRoot": "${workspaceFolder}/src" // Point to your React source code
+        },
+        {
+            "name": "Attach to Firefox",
+            "type": "firefox",
+            "request": "attach",
+            "url": "http://localhost:3000", // Match the URL of your running app
+            "webRoot": "${workspaceFolder}/src"
+        }
+    ]
+}

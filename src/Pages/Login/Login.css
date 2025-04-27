@@ -1,0 +1,43 @@
+.div-login{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 10vh;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+}
+
+.div-login-logo{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+}
+
+input{
+    width: 95%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    box-shadow: none;
+    font-family: "Special Gothic", sans-serif;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: dodgerblue;
+    font-family: "Special Gothic", sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+  
